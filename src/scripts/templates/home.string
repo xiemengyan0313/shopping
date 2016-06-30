@@ -1,0 +1,99 @@
+<div class="m-home">
+	<header>
+		<div><img src="/fashion/images/logo.jpg"/></div>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+		<div class="swiper-container" id="home-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="/fashion/images/banner1.jpg"/>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/fashion/images/banner2.jpg"/>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/fashion/images/banner3.jpg"/>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="/fashion/images/banner4.jpg"/>
+		        </div>
+		    </div>
+	    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		<nav>
+		    <ul>
+		      <li action-type="goto.list">
+		      	<img src="/fashion/images/nav1.jpg"/>
+		      	<p>热销</p>
+		      </li>
+		      <li>
+		      	<img src="/fashion/images/nav2.jpg"/>
+		      	<p>新品</p>
+		      </li>
+		      <li>
+		      	<img src="/fashion/images/nav3.jpg"/>
+		      	<p>开业精选</p>
+		      </li>
+		      <li>
+		      	<img src="/fashion/images/nav4.jpg"/>
+		      	<p>批量采购</p>
+		      </li>
+		      <li>
+		      	<img src="/fashion/images/nav5.jpg"/>
+		      	<p>更多</p>
+		      </li>
+		    </ul>
+  		</nav>
+  		<div class="goods">
+  			<ul>
+  				<li><img src="/fashion/images/img01.jpg"/></li>	
+  				<li><img src="/fashion/images/img02.jpg"/></li>
+  			</ul>
+  			<ul>
+  				<li><img src="/fashion/images/img03.jpg"/></li>	
+  				<li><img src="/fashion/images/img04.jpg"/></li>
+  			</ul>
+  			<ul>
+  				<li><img src="/fashion/images/img01.jpg"/></li>
+  				<li><img src="/fashion/images/img02.jpg"/></li>
+  			</ul>
+  			<ul>
+  				<li><img src="/fashion/images/img03.jpg"/></li>
+  				<li><img src="/fashion/images/img04.jpg"/></li>
+  			</ul>
+  		</div>
+  		<div class="tui">
+  			<div class="tuileft">
+  				<img src="/fashion/images/tb1.jpg"/>
+  				<p>60天换货</p>
+  			</div>
+  			<div class="tuiright">
+  				<p>60天免费退换货，支持所有商品退换货，详情请见退换货服务细则</p>
+  			</div>
+  		</div>
+  		<div class="tui">
+  			<div class="tuileft">
+  				<img src="/fashion/images/tb2.jpg"/>
+  				<p>安全支付</p>
+  			</div>
+  			<div class="tuiright">
+  				<p>60天免费退换货，支持所有商品退换货，详情请见退换货服务细则</p>
+  			</div>
+  		</div>
+  		<ul class="navlist">
+  			<li>关于我们</li>
+  			<li>联系我们</li>
+  			<li>服务体系</li>
+  		</ul>
+  		<div class="tel">
+  			<span>客服电话</span><i>025-66666</i>
+  		</div>
+  		<div class="ban">
+  			&copy;2015 娱乐购商城版权所有
+  		</div>
+  		</div>
+	</section>
+</div>
+	

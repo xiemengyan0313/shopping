@@ -1,0 +1,26 @@
+<div class="m-login">
+	<header>
+    <ul>
+      <li action-type="back"><img src="/fashion/images/back.png"/></li>
+      <li>
+      	 登录
+      </li>
+      <li></li>
+    </ul>
+  </header>
+  <section>
+  	<from>
+  		<div class="phone">
+  			<img src="/fashion/images/login_phone.png"/>
+  			<input type="text" name="username" id="username" placeholder="手机号" />
+  		</div>
+  		<div class="phone">
+  			<img src="/fashion/images/login_pwd.png"/>
+  			<input type="password" name="pwd" id="pwd" placeholder="请输入密码" />
+  		</div>
+  		<p class="wang">忘记密码</p>
+  		<input type="button" name="check" id="check" value="确认" action-type="pass" />
+  		<p class="reg" action-type="goto.register">注册新用户</p>
+  	</from>
+  </section>
+</div>

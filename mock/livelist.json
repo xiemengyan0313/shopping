@@ -1,0 +1,53 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_01.jpg",
+      "title": "葡香园新佳美汁1"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/fashion/images/img_02.jpg",
+      "title": "葡香园新佳美汁2"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/fashion/images/img_03.jpg",
+      "title": "葡香园新佳美汁3"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_04.jpg",
+      "title": "葡香园新佳美汁4"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_07.jpg",
+      "title": "葡香园新佳美汁5"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_08.jpg",
+      "title": "葡香园新佳美汁6"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_09.jpg",
+      "title": "葡香园新佳美汁7"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_08.jpg",
+      "title": "葡香园新佳美汁8"
+    },
+    {
+      "id": 1,
+      "imgsrc": "/fashion/images/img_01.jpg",
+      "title": "葡香园新佳美汁9"
+    }
+    
+  ]
+}

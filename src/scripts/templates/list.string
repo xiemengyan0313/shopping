@@ -1,0 +1,43 @@
+<!--<div>list-----</div>-->
+<div class="m-list">
+	<header>
+    <ul>
+      <li action-type="back"><img src="/fashion/images/back.png"/></li>
+      <li>
+      	  商品列表
+      </li>
+      <li class="yo-ico">&#xe615;</li>
+    </ul>
+  </header>
+  <nav>
+  	<ul>
+  		<li>综合</li>
+  		<li>新品</li>
+  		<li>销量</li>
+  		<li>价格</li>
+  	</ul>
+  </nav>
+  <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+  	<div>
+  		<div class="head">
+                      <img src="/fashion/images/arrow.png" width="40" height="40"/>
+                      <span>下拉刷新...</span>
+                  </div>
+        <ul ms-repeat-value="livelist">
+            <li ms-attr-data-id="value[0].id">
+                <img ms-src="value[0].imgsrc">
+                <b ms-text="value[0].title"></b>
+            </li>
+            <li></li>
+            <li  ms-attr-data-id="value[1].id" ms-class-hide="!value[1]">
+                <img ms-src="value[1].imgsrc">
+                <b ms-text="value[1].title"></b>
+            </li>
+        </ul>
+        <div class="foot">
+            <img src="/fashion/images/arrow.png" width="40" height="40"/>
+            <span>上拉加载更多...</span>
+        </div>
+  	</div>	
+  </section>
+</div>

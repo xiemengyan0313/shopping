@@ -1,0 +1,69 @@
+.m-index {
+    .l-container {
+        .m-classify{
+            background:#fff;
+            @include flexbox();
+            @include flex-direction(column);
+              height: 100%;
+              > * {
+                width: 100%;
+                }
+            header{
+                width:100%;
+                height:.44rem;
+                div{
+                    text-align:center;
+                    line-height:.44rem;
+                    height:.44rem;
+                }
+             
+            }
+            section{
+                width:100%;
+                height:100%;
+                border-top:.01rem solid #ccc;
+                @include box-sizing(border-box);
+                @include flexbox();
+                nav{
+                    
+                    height:100%;
+                    @include flex(1);
+                    .list{
+                        width:100%;
+                        
+                            li{
+                                width:100%;
+                                height:.7rem;
+                                line-height:.7rem;
+                                background:#f4f4f4;
+                                text-align:center;
+                                &.active {
+                                    border-left: .02rem solid #ff9d00;
+                                    color: #ff9d00;
+                                    background:#fff;
+                                 }
+                            }
+                            
+                    }
+                }
+                #classify-swiper{
+                    @include flex(3);
+                    ul{
+                        @include flexbox();
+                        li{
+                            @include flex(1);
+                            text-align:center;
+                           padding-top:20px;
+                            img{
+                                width:60px;
+                                height:60px;
+                                padding-bottom:10px;
+                            }
+                        }
+                    }
+                  
+                }
+            }
+        }
+    }
+}

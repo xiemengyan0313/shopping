@@ -1,0 +1,77 @@
+.m-index {
+    .l-container {
+        .m-my{
+            @include flexbox();
+            @include flex-direction(column);
+              height: 100%;
+              > * {
+                width: 100%;
+                }
+            section{
+                width:100%;
+                height:100%;
+                .top{
+                    width:100%;
+                    height:250px;
+                    background:url(/fashion/images/my_bg.png);
+                    background-size:cover;
+                    text-align: center;
+                    padding-top:30%;
+                    @include box-sizing(border-box);
+                    img{
+                        width:50px;
+                        height:50px;
+                        margin-bottom:15px;
+                    }
+                    .setting{
+                        position:absolute;
+                        top:5%;
+                        right:3%;                                             
+                        img{
+                            width:25%;
+                            height:25%;
+                            margin-top:10%;
+                        }
+                        span{
+                            color:#fff;
+                        }
+                    }        
+                }
+                .my_list{
+                    width:100%;
+                    @include flexbox();
+                    @include flex-direction(column);                                                                
+                        ul{
+                            @include flex(1);
+                            @include flexbox();
+//                          background:red;  
+                            height:100%;
+                            width:100%;
+                            margin-top:3%;
+                            background:#fff;
+                            li{
+                                height:.5rem;
+                                line-height:.5rem;
+                                
+                            }
+                            li:nth-child(1){
+                               @include flex(2); 
+                               text-align:center; 
+                               img{
+                                   width:30%;
+                                   
+                               }                          
+                            }
+                            li:nth-child(2){
+                               @include flex(6); 
+                            }
+                            li:nth-child(3){
+                               @include flex(1); 
+                            }
+                            
+                        }                  
+                }
+            }
+        }
+    }
+}

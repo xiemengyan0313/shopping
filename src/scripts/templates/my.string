@@ -1,0 +1,50 @@
+<div class="m-my">
+	<section spa-widget="scroll">
+		<div>
+			<div class="top">
+				<img src="/fashion/images/my_login .png"/>
+				<p action-type="goto.login">登录/注册</p>
+				<div class="setting">
+					<img src="/fashion/images/my_setting.png"/><span>设置</span>
+				</div>
+			</div>
+			<div class="my_list">
+			
+					<ul>
+						<li><img src="/fashion/images/my_info.png"/></li>
+						<li>我的信息</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					<ul>
+						<li><img src="/fashion/images/my_order.png"/></li>
+						<li>订单中心</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					<ul>
+						<li><img src="/fashion/images/my_address.png"/></li>
+						<li>收货地址</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					<ul>
+						<li><img src="/fashion/images/my_group.png"/></li>
+						<li>公司群组</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					<ul>
+						<li><img src="/fashion/images/my_service.png"/></li>
+						<li>客服中心</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					<ul>
+						<li><img src="/fashion/images/icon_fqa.png"/></li>
+						<li>常见问题</li>
+						<li><img src="/fashion/images/jiantou.png"/></li>
+					</ul>
+					
+			
+				
+				
+			</div>
+		</div>
+	</section>
+</div>

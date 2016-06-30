@@ -1,0 +1,23 @@
+<div class="m-register">
+	<header>
+    <ul>
+      <li action-type="back"><img src="/fashion/images/back.png"/></li>
+      <li>
+      	 注册
+      </li>
+      <li></li>
+    </ul>
+  </header>
+  <section>
+  	<from>
+  		<input type="text" name="user" id="user" placeholder="用户名" />
+  		<input type="text" name="tel" id="tel" placeholder="手机号" />
+  		<input type="text" name="checkcode" id="checkcode" placeholder="验证码" />
+  		<span id="getCode" action-type="show">获取验证码</span>
+  		<input type="password" name="passw" id="passw" placeholder="输入密码" />
+  		<input type="password" name="checkpwd" id="checkpwd" placeholder="再次确认密码" />
+  		<input type="text" name="tuijian" id="tuijian" placeholder="推荐码"/>
+  		<input type="button" name="btn12" id="btn12" value="注册" action-type="save"/>
+  	</from>
+  </section>
+</div>

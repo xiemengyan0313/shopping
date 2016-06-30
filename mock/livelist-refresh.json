@@ -1,0 +1,23 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/fashion/images/img_01.jpg",
+      "title": "refresh葡香园新佳美汁1"
+    },
+    {
+      "imgsrc": "/fashion/images/img_02.jpg",
+      "title": "refresh葡香园新佳美汁2"
+    },
+    {
+      "imgsrc": "/fashion/images/img_03.jpg",
+      "title": "refresh葡香园新佳美汁3"
+    },
+    {
+      "imgsrc": "/fashion/images/img_04.jpg",
+      "title": "refresh葡香园新佳美汁4"
+    }
+  ]
+}

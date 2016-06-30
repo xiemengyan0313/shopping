@@ -1,0 +1,246 @@
+<div class="m-classify">
+	<header>
+		<div>分类</div>
+	</header>
+	<section>
+		<nav spa-widget="scroll">
+			<div>
+				<ul class="list">
+		            <li class="active" action-type="classify.slide">酒水</li>
+		            <li action-type="classify.slide">饮料</li>
+		            <li action-type="classify.slide">休闲食品</li>
+		            <li action-type="classify.slide">纸品</li>
+		            <li action-type="classify.slide">清洁用品</li>
+		            <li action-type="classify.slide">设备工具</li>
+		            <li action-type="classify.slide">增值服务</li>
+		            <li action-type="classify.slide">中央厨房</li>
+		         </ul>
+	        </div>
+		</nav>
+		<div class="swiper-container" id="classify-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_01.jpg"/>
+		        			<p>气泡酒</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_02.jpg"/>
+		        			<p>红酒</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_03.jpg"/>
+		        			<p>威士忌</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_04.jpg"/>
+		        			<p>预调酒</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_01.jpg"/>
+		        			<p>气泡酒</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_03.jpg"/>
+		        			<p>气泡酒</p>
+		        		</li>
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_05.jpg"/>
+		        			<p>碳酸饮料</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_06.jpg"/>
+		        			<p>果汁饮料</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_07.jpg"/>
+		        			<p>奶制品</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_08.jpg"/>
+		        			<p>水</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_06.jpg"/>
+		        			<p>功能饮料</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_05.jpg"/>
+		        			<p>茶饮料</p>
+		        		</li>
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆类</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>茶饮料</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>瓜子花生</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_09.jpg"/>
+		        			<p>豆干</p>
+		        		</li>
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_10.jpg"/>
+		        			<p>抽纸</p>
+		        		</li>
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_11.jpg"/>
+		        			<p>空气香氛</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_11.jpg"/>
+		        			<p>空气香氛</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_11.jpg"/>
+		        			<p>空气香氛</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_11.jpg"/>
+		        			<p>空气香氛</p>
+		        		</li>
+		        		<li></li>	        					        		
+		        		<li></li>		        			     		
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_12.jpg"/>
+		        			<p>线材</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_12.jpg"/>
+		        			<p>线材</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_12.jpg"/>
+		        			<p>线材</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_12.jpg"/>
+		        			<p>线材</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_12.jpg"/>
+		        			<p>线材</p>
+		        		</li>	        					        		
+		        		<li></li>		        			     		
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_13.jpg"/>
+		        			<p>节日布置</p>
+		        		</li>
+		        		<li>
+		        			
+		        		</li>	        					        		
+		        		<li></li>		        			     		
+		        	</ul>
+		        </div>
+		        <div class="swiper-slide">
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_14.jpg"/>
+		        			<p>生鲜水果</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_14.jpg"/>
+		        			<p>生鲜水果</p>
+		        		</li>
+		        		<li>
+		        			<img src="/fashion/images/img_14.jpg"/>
+		        			<p>生鲜水果</p>
+		        		</li>
+		        	</ul>
+		        	<ul>
+		        		<li>
+		        			<img src="/fashion/images/img_14.jpg"/>
+		        			<p>生鲜水果</p>
+		        		</li>
+		        		<li></li>	        					        		
+		        		<li></li>		        			     		
+		        	</ul>
+		        </div> 
+		    </div>   
+		</div>
+	</section>
+</div>

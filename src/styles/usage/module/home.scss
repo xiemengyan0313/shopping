@@ -1,0 +1,123 @@
+.m-index {
+    .l-container {
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+              height: 100%;
+              > * {
+                width: 100%;
+                }
+            header{
+                width:100%;
+                height:.44rem;
+                div{
+                    text-align:center;
+                    line-height:.44rem;
+                    height:.44rem;
+                }
+                img{
+                    height:.2rem;
+                }
+            }
+            section{
+                width:100%;
+                height:100%;
+                .goods{
+                    ul{
+                       @include flexbox(); 
+                       li{
+                           @include flex(1);
+                           text-align:center;
+                           padding-top:5px;
+                            @include box-sizing(border-box);
+                            img{
+                                width:180px;
+                            }
+                       }
+                       ul:last-child li{
+                           padding-bottom:5px;
+                       }
+                       
+                    }
+                    
+                }
+                .tui{              
+                    width:100%;
+                    @include flexbox();
+                    background:#fff;
+                     @include box-sizing(border-box);
+                     border-bottom:1px solid #ccc;
+                    .tuileft{
+                        @include flex(3);
+                      
+                        float:left;
+                        height:100px;
+                        padding-top:20px;
+                        @include box-sizing(border-box);
+                        text-align: center;
+                    }
+                    .tuiright{
+                         @include flex(7);
+                        line-height:24px;
+                        float:left;
+                        height:100px;
+                        padding-top:20px;
+                        @include box-sizing(border-box);
+                        color:#686868;
+                    }
+                } 
+                .navlist{
+                    @include flexbox();
+                    li{
+                        @include flex(1);
+                        height:.4rem;
+                        line-height:.4rem;
+                        text-align:center;
+                        color:#686868;
+                    }
+                }
+                .tel{
+                    text-align:center;
+                    height:.35rem;
+                    line-height: .35rem;
+                    width:100%;
+                    background:#fff;
+                    i{
+                        color:#000;
+                        margin-left:6%;
+                    }
+                } 
+                .ban{
+                    height:.35rem;
+                    line-height:.35rem;
+                    text-align:center;
+                    color:#686868;
+                }             
+            }
+                nav {
+                    height: 1.3rem;
+                    background: #fff;
+                    ul {
+                      width: 100%;
+                      height: 100%;
+                      @include flexbox();
+                      li {
+                        @include flex(1);
+                        text-align: center;
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include align-items(center);
+                        @include justify-content(center);
+                       }
+                    }
+              }
+        }
+    }
+}
+.swiper-slide{
+    img{
+        width:100%;
+//      height:230px;
+    }
+}
+
